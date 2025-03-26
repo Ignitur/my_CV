@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #ffedd5;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 900px;
+  color: #333;
+}
+
+.avatar {
+  width: 200px;
+  height: 250px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+}
+
+.info1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.important {
+  flex: 1;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background: #bbb;
+  margin: 20px 0;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table th, .table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.hardSkills {
+  background-color: #6ec7f1cc;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.hardSkills ul {
+  list-style-type: disc;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.lang {
+  background-color: #6ef1c0cc;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contacts i {
+  margin-right: 6px;
+}
+
+.contacts p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
